@@ -1,0 +1,31 @@
+/* 
+
+    Colour Palette
+
+    Darkest – #07182E
+    Columns – #132945
+    Accent  – #29D8BE
+    Text    – #CBD6F5
+    Grey    – #6E7997
+
+    Fonts
+
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Oxygen Mono', monospace;
+
+    Layout Grid
+
+    Row Height is 16px.
+    Column Width is 296px.
+    Vertical Gutters are 18px.
+
+*/
+
+body {
+    font-size: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 960px;
+}
