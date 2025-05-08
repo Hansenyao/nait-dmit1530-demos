@@ -47,6 +47,9 @@ We will be using the following software and tools today:
 
 6. Validate your code using the [W3C Markup Validation Service](https://validator.w3.org/).
 
+
 ### CSS
 
-### Figma 
+7. Work with your instructor to build your stylesheet, starting with the most basic or universal styles and working your way down to the most specific. Make sure to check the design panel in Figma for typographic properties and lengths as you go.
+
+8. When you are finished, you may also validate your CSS using the [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).

@@ -1,0 +1,101 @@
+/* 
+
+    Colour Palette
+
+    Darkest – #07182E
+    Columns – #132945
+    Accent  – #29D8BE
+    Text    – #CBD6F5
+    Grey    – #6E7997
+
+    Fonts
+
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Oxygen Mono', monospace;
+
+    Grid
+
+    Row Height is 16px.
+    Column Width is 296px.
+    Vertical Gutters are 18px.
+
+*/
+
+header h1 {
+    color: #6E7997;
+    font-size: 64px;
+    font-family: "Oxygen Mone", monospace;
+}
+
+header p {
+    color: #CBD6F5;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 46px;
+}
+
+.accent {
+    color: #29D8BE;
+}
+
+.btn {
+    color: #29D8BE;
+    border: 1px solid #29D8BE;
+    border-radius: 16px;
+    padding: 20px 100px;
+    text-decoration: none;
+    font-family: "Oxygen Mone", monospace;
+}
+
+.btn:hover {
+    background-color: #29D8BE;
+    color: #07182E;
+}
+
+body {
+    background-color: #07182E;
+    text-align: center;
+    font-family: "Oxygen", sans-serif;
+}
+
+main {
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 52px;
+}
+
+section {
+    background-color: #132945;
+}
+
+section h2 {
+    color: #29D8BE;
+    font-size: 36px;
+    margin-top: 55px;
+}
+
+section ul {
+    color: #CBD6F5;
+    line-height: 34px;
+    list-style: none;
+    margin-bottom: 55px;
+}
+
+footer {
+    margin-bottom: 60px;
+}
+
+footer p {
+    color: #6E7997;
+    line-height: 34px;
+    margin-top: 11px;
+}
+
+footer div {
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    margin-top: 52px;
+}

@@ -1,0 +1,23 @@
+p {
+    color: blue;
+}
+
+header {
+    background-color: cyan;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px dashed red;
+    padding: 20px;
+}
+
+.author-name {
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#main-paragraph {
+    color: gold;
+    font-weight: bold;
+}
