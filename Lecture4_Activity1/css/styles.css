@@ -1,0 +1,93 @@
+/*Styles sheet for Lecture11- demo1. Illustrating the use of flexbox*/
+
+
+
+
+body {
+    background-color: rgb(18, 41, 173);
+    font-size: 100%;
+    width:100%
+
+}
+
+.container {
+    margin: 0 auto;
+    /*width: 960px;*/
+    width: 100%;
+    line-height: 1.5;
+}
+
+
+
+/* This rule is for the div element with id "purpose" that displays the 
+purpose of this demo. 
+*/
+
+header, footer {
+    color: blue;
+    background-color: darkseagreen;
+    /*padding: 10px;*/
+    padding: 3vh;
+    /*border: 10px solid yellow;*/
+    border: 1vw solid yellow;
+    margin:0 auto;
+    text-align:center;
+}
+
+header {
+    font-size: 30px;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+h1 {
+    /*font-size: 30px;*/
+    font-size: 100%;
+    text-align:center;
+}
+
+h2 {
+    font-size: 0.8em;
+}
+
+p {
+    font-size: 0.6em;
+}
+
+/*The container1 class will have a flexbox display*/
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    gap: 10px;
+    border: 2px solid red;
+    padding: 10px;
+}
+
+section {
+    background-color: bisque;
+    border: 2px dashed black;
+    padding: 10px;
+    width: calc((100% - 20px) / 3);
+    font-size: 30px;
+}
+
+footer{
+    margin:0 auto;
+    text-align:center;
+    background-color: darkseagreen;
+    padding: 10px;
+}
+
+.purpose {
+    font-size: 75%;
+}
+
+*{
+    box-sizing: border-box;
+}

@@ -1,0 +1,64 @@
+/* 
+    COLOUR PALETTE
+
+    cyan-950:  #083344
+    cyan-900:  #164e63
+    cyan-800:  #155e75
+    body-copy: #f7ffff
+*/
+:root {
+    --cyan-950:  #083344;
+    --cyan-900:  #164e63;
+    --cyan-800:  #155e75;
+    --body-copy: #f7ffff;
+}
+
+.container{
+    background-color: var(--cyan-950);
+    color:#f7ffff;
+    font-family:"Noto Serif", serif;
+    width:960px;
+}
+
+.inner-container{
+    padding:32px 16px;
+    background-color: var(--cyan-900);
+    border-radius:4px;
+    margin:0 auto;
+
+    /*Making the inner-container a flexbox*/
+    display:flex;
+    flex-wrap: wrap;
+    gap:16px;
+}
+
+.inner-container{
+    width:100%;
+}
+
+h1{
+    font-size:36px;
+    font-weight:400;
+    text-align:center;
+}
+
+h1{
+    width: 100%;
+}
+
+p{
+    background-color: var(--cyan-800);
+    border: 1px solid var(--cyan-950);
+    border-radius: 4px;
+    padding:16px;
+}
+
+/*Make the width of the paragraph relative to the parent - the gaps*/
+p{
+   width: calc((100% - 32px)/3);
+}
+
+/*We change the box-sizing property of all elements to border-box*/
+*{
+    box-sizing:border-box;
+}
