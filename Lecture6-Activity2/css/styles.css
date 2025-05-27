@@ -34,14 +34,17 @@ section{
     gap:1rem;
     width:90%;
     margin:0.5rem auto;
+    justify-content:center;
+    height:30vh;
+    margin:10px;
+    border: 2px dashed red;
 }
 
 .box{
     border:2px double black;
     width:25%;
-    height:15vh;
     text-align:center;
-    padding:0.75rem;
+    padding:1rem;
     font-size:3rem;
 }
 
@@ -51,6 +54,8 @@ section{
 
 .box2{
     background-color: var(--box2-col);
+    padding-top:0.1rem;
+    padding-bottom:0.2rem;
 }
 
 
@@ -59,21 +64,21 @@ section{
 }
 
 section:first-child{
-    justify-content:flex-start;
+    align-items:flex-start;
 }
 
 section:nth-child(2){
-     justify-content:center;
+     align-items:center;
 }
 
 section:nth-child(3){
-     justify-content:space-between;
+      align-items:stretch;
 }
 
 section:nth-child(4){
-     justify-content:space-around;
+      align-items:baseline;
 }
 
 section:last-child{
-     justify-content:flex-end;
+     align-items:flex-end;
 }
