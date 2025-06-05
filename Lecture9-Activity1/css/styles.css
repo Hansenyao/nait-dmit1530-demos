@@ -1,0 +1,72 @@
+/*
+    body-col:#050110;
+    container-col:#06422d;
+    box1-col:#cde30e;
+    box2:-col:#f83707;
+    box3-col: #061d42;
+    section-col:#d6dbe3;
+*/
+
+:root{
+    --body-col:#050110;
+    --container-col:#06422d;
+    --box1-col:#cde30e;
+    --box2-col:#f83707;
+    --box3-col: #23ce3d;
+    --section-col:#d6dbe3;
+}
+
+body{
+    background-color: var(--body-col);
+    font-size:100%;
+}
+
+.container{
+    max-width:64rem;
+    min-width: 22.5rem;
+    background-color: var(--container-col);
+    margin:0 auto;
+}
+
+section{
+   display:flex;
+   gap:1rem;
+   padding: 1rem;
+   width:90%;
+   background-color: var(--section-col);
+   margin:1rem auto;
+   height: 40vh;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.box{
+    border: 2px double black;
+   
+    height:10vh;
+    text-align:center;
+    padding:2rem;
+    font-size:3rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.box1{
+    background-color: var(--box1-col);
+    flex-grow: 2;
+}
+
+.box2{
+    background-color: var(--box2-col);
+    flex-grow: 1;
+}
+
+.box3{
+    background-color: var(--box3-col);
+    flex-grow: 0;
+}
+
+
+
+

@@ -1,0 +1,117 @@
+/*
+
+Stylye sheet for illustrating responsive design
+
+*/
+
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: blue;
+}
+
+h1,
+h2,
+h3 {
+	border: 2px dashed red;
+}
+
+h1 {
+	background-color: aqua;
+}
+
+h2 {
+	background-color: aquamarine;
+}
+
+h3{
+	background-color: darkkhaki;
+}
+
+article {
+	border: 2px solid green;
+	background-color: bisque;
+	margin: 0.5rem
+}
+
+section {
+	border: 3px dashed blue;
+	background-color: ivory;
+	margin: 1rem;
+}
+
+header,
+footer {
+	border: 3px solid darkred;
+	background-color: darkseagreen;
+}
+
+h1,
+h2,
+h3 {
+	margin: 10px;
+}
+
+.navlinks {
+	list-style-type: none;
+
+}
+
+a {
+	text-decoration: none;
+
+}
+
+aside {
+
+	background-color: Cyan;
+	border: 1px solid black;
+}
+
+img{
+	display:none;
+}
+
+/* media query for screens fo 720px of larger */
+@media screen and (min-width:720px){
+	.container {
+		display: flex;
+		flex-wrap: wrap
+	}
+	img {
+		display: inline-block;
+		width: 90%;
+	}
+	section {
+		width: 40%;
+		margin: 0 0
+	}
+	article {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 1rem;
+		padding: 1rem;
+		justify-content: center;
+		width:60%
+	}
+	aside {
+		width: 30%;
+		height: 70vh;
+		margin-top: 35vh
+	}
+	h2 {
+		font-size: 120%
+	}
+	header, 
+	nav, 
+	footer {
+		width: 90%;
+		text-align:center
+	}
+	nav ul {
+		background-color: #fff;
+		display: flex;
+		gap: 2rem;
+		justify-content: space-around
+	}
+}
