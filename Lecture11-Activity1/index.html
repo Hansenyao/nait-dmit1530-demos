@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lecture 11 -Activity 1</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>The SPACE of Developer Productivity</h1>
+
+            <div id="purpose">This Demo Illustrates however Block-Level Elements
+                Are Displayed
+            </div>
+
+        </header>
+        <main>
+            <article>
+                <h2>Introduction</h2>
+                <p>Developer productivity is complex and nuanced, with important implications for software development
+                    teams. A
+                    clear understanding of defining, measuring, and predicting developer productivity could provide
+                    organizations, managers, and developers with the ability to make higher-quality software—and make it
+                    more
+                    efficiently.</p>
+                <p>Developer productivity has been studied extensively. Unfortunately, after decades of research and
+                    practical
+                    development experience, knowing how to measure productivity or even define developer productivity
+                    has
+                    remained elusive, while myths about the topic are common. Far too often teams or managers attempt to
+                    measure
+                    developer productivity with simple metrics, attempting to capture it all with "one metric that
+                    matters."
+                </p>
+
+                <p>p>One important measure of productivity is personal perception;1 this may resonate with those who
+                    claim
+                    to be
+                    in "a flow" on productive days.
+                </p>
+                <p>
+                    There is also agreement that developer productivity is necessary not just to improve engineering
+                    outcomes,
+                    but also to ensure the well-being and satisfaction of developers, as productivity and satisfaction
+                    are
+                    intricately connected.</p>
+
+                <p>Ensuring the efficient development of software systems and the well-being of developers has never
+                    been
+                    more
+                    important as the Covid-19 pandemic has forced the majority of software developers worldwide to work
+                    from
+                    home,17 disconnecting developers and managers from their usual workplaces and teams. Although this
+                    was
+                    unexpected and unfortunate, this change constitutes a rare "natural experiment" that statisticians
+                    can
+                    capitalize upon to study, compare, and understand developer productivity across many different
+                    contexts.
+                    This forced disruption and the future transition to hybrid remote/colocated work expedites the need
+                    to
+                    understand developer productivity and well-being, with wide agreement that doing so in an efficient
+                    and
+                    fair
+                    way is critical. </p>
+
+                <p class="special">This article explicates several common myths and misconceptions about developer
+                    productivity. The most
+                    important takeaway from exposing these myths is that productivity cannot be reduced to a single
+                    dimension
+                    (or metric!). The prevalence of these myths and the need to bust them motivated our work to develop
+                    a
+                    practical multidimensional framework, because only by examining a constellation of metrics in
+                    tension
+                    can we
+                    understand and influence developer productivity. This framework, called SPACE, captures the most
+                    important
+                    dimensions of developer productivity: satisfaction and well-being; performance; activity;
+                    communication
+                    and
+                    collaboration; and efficiency and flow. By recognizing and measuring productivity with more than
+                    just a
+                    single dimension, teams and organizations can better understand how people and teams work, and they
+                    can
+                    make
+                    better decisions.</p>
+                <p>The article demonstrates how this framework can be used to understand productivity in practice and
+                    why
+                    using
+                    it will help teams better understand developer productivity, create better measures to inform their
+                    work
+                    and
+                    teams, and may positively impact engineering outcomes and developer well-being.
+                </p>
+            </article>
+            <article>
+
+                <h2>Myths and Misconceptions About Developer Productivity</h2>
+                <p>
+                    A number of myths about developer productivity have accumulated over the years. Awareness of these
+                    misconceptions leads to a better understanding of measuring productivity.</p>
+                <section>
+                    <h2>Myth: Productivity is all about developer activity.
+                    </h2>
+                    <p>
+                        This is one of the most common myths, and it can cause
+                        undesirable outcomes and developer dissatisfaction. Sometimes, higher volumes of activity appear
+                        for various
+                        reasons: working longer hours may signal developers having to "brute-force" work to overcome bad
+                        systems or
+                        poor planning to meet a predefined release schedule. On the other hand, increased activity may
+                        reflect
+                        better engineering systems, providing developers with the tools they need to do their jobs
+                        effectively, or
+                        better collaboration and communication with team members in unblocking their changes and code
+                        reviews.</p>
+                    <p>Activity metrics alone do not reveal which of these is the case, so they should never be used in
+                        isolation
+                        either to reward or to penalize developers. Even straightforward metrics such as number of pull
+                        requests,
+                        commits, or code reviews are prone to errors because of gaps in data and measurement errors, and
+                        systems
+                        that report these metrics will miss the benefits of collaboration seen in peer programming or
+                        brainstorming.
+                        Finally, developers often flex their hours to meet deadlines, making certain activity measures
+                        difficult to
+                        rely on in assessing productivity.</p>
+                </section>
+                <section>
+                    <h2>Myth: Productivity is only about individual performance.</h2>
+                    <p>
+                        While individual performance is important,
+                        contributing to the success of the team is also critical to measuring productivity. Measures
+                        of performance
+                        that balance the developer, team, and organization are important. Similar to team sports,
+                        success is judged
+                        both by a player's personal performance as well as the success of their team. A developer
+                        who optimizes only
+                        for their own personal productivity may hurt the productivity of the team. More team-focused
+                        activities such
+                        as code reviews, on-call rotations, and developing and managing engineering systems help
+                        maintain the
+                        quality of the code base and the product/service. Finding the right balance in optimizing
+                        for individual,
+                        team, and organizational productivity, as well as understanding possible trade-offs, is key.
+                    </p>
+                </section>
+                <section class="special-section">
+                    <h2>Myth: One productivity metric can tell us everything.</h2>
+                    <p>One common myth about developer productivity is that
+                        it produces a universal metric, and that this "one metric that matters" can be used to score
+                        teams on their
+                        overall work and to compare teams across an organization and even an industry. This isn't
+                        true. Productivity
+                        represents several important dimensions of work and is greatly influenced by the context in
+                        which the work
+                        is done.</p>
+                </section>
+                <section>
+                    <h2>
+                        Myth: Productivity measures are useful only for managers.
+                    </h2>
+                    <p class="special">Developers often say that productivity measures
+                        aren't useful. This may come from the misuse of measures by leaders or managers, and it's
+                        true that when
+                        productivity is poorly measured and implemented, it can lead to inappropriate usage in
+                        organizations. It's
+                        disappointing that productivity has been co-opted this way, but it's important to note that
+                        developers have
+                        found value in tracking their own productivity—both for personal reasons and for
+                        communicating with others.
+                        By remembering that developer productivity is personal,7 developers can leverage it to gain
+                        insights into
+                        their work so they can take control of their time, energy, and days. For example, research
+                        has shown that
+                        high productivity is highly correlated with feeling satisfied and happy with work.12,20
+                        Finding ways to
+                        improve productivity is also about finding ways to introduce more joy, and decrease
+                        frustration, in a
+                        developer's day.</p>
+                </section>
+                <section>
+                    <h2> Myth: Productivity is only about engineering systems and developer tools.</h2>
+                    <p>While developer tools and workflows have a large impact on developer productivity, human
+                        factors such as environment and work culture
+                        have substantial impact too. Often the critical work needed to keep the environment and
+                        culture healthy can
+                        be "invisible" to many members of the organization or to metrics traditionally used for
+                        measuring
+                        productivity. Work such as morale building, mentoring, and knowledge sharing are all
+                        critical to supporting
+                        a productive work environment and yet are often not measured. The "invisible" work that
+                        benefits the overall
+                        productivity of the team is just as important as other more commonly measured
+                        dimensions.21
+                    </p>
+                </section>
+            </article>
+            <article>
+                <h2>SPACE: A Framework for Understanding Developer Productivity</h2>
+                <p>Productivity is about more than the individual or the engineering systems; it cannot
+                    be measured by a single
+                    metric or activity data alone; and it isn't something that only managers care about.
+                    The SPACE framework was
+                    developed to capture different dimensions of productivity because without it, the
+                    myths just presented will
+                    persist. The framework provides a way to think rationally about productivity in a
+                    much bigger space and to
+                    choose metrics carefully in a way that reveals not only what those metrics mean, but
+                    also what their
+                    limitations are if used alone or in the wrong context.
+                </p>
+                <section class="special-section">
+                    <h2>Satisfaction and well-being.</h2>
+                    <p class="special">
+                        Satisfaction is how fulfilled developers feel with their work, team, tools, or
+                        culture; well-being is how healthy and happy they are, and how their work impacts
+                        it. Measuring satisfaction
+                        and well-being can be beneficial for understanding productivity20 and perhaps even
+                        for predicting it.15 For
+                        example, productivity and satisfaction are correlated, and it is possible that
+                        satisfaction could serve as a
+                        leading indicator for productivity; a decline in satisfaction and engagement could
+                        signal upcoming burnout
+                        and reduced productivity.
+                        For example, when many places shifted to mandatory work from home during the
+                        pandemic, an uptick occurred in
+                        some measures of productivity (for example, code commits and speed to merge pull
+                        requests).8 Qualitative
+                        data, however, has shown that some people were struggling with their well-being.3
+                        This highlights the
+                        importance of balanced measures that capture several aspects of productivity: While
+                        some activity measures
+                        looked positive, additional measures of satisfaction painted a more holistic
+                        picture, showing that
+                        productivity is personal, and some developers were approaching burnout. To combat
+                        this, some software groups
+                        in large organizations implemented "mental health" days—essentially, free days off
+                        to help people avoid
+                        burnout and improve well-being.
+                    </p>
+                    <p class="special" id="unique">
+                        It is clear that satisfaction and well-being are important dimensions of
+                        productivity. These qualities are
+                        often best captured with surveys. To assess the satisfaction dimension, you might
+                        measure the following:
+                    </p>
+                    <ul>
+                        <li>
+                            Employee satisfaction. The degree of satisfaction among employees, and whether
+                            they would recommend their
+                            team to others.
+                        </li>
+                        <li>
+                            Developer efficacy. Whether developers have the tools and resources they need to
+                            get their work done.
+                        </li>
+                        <li>
+                            Burnout. Exhaustion caused by excessive and prolonged workplace stress.
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+        </main>
+        <footer>
+            <p>Copyright held by authors/owners.</p>
+            <p>Request permission to (re)publish from the owner/author</p>
+            <p>The Digital Library is published by the Association for Computing Machinery. Copyright © 2021 ACM, Inc.
+            </p>
+
+        </footer>
+    </div>
+</body>
+
+</html>

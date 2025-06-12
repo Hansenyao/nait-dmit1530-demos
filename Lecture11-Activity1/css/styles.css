@@ -1,0 +1,56 @@
+body {
+	background-color: white;
+}
+
+.container {
+	margin:0 auto;
+	width:960px;
+	font-size: 100%;
+	line-height: 1.5;
+}
+
+h1,
+h2 {
+	border: 2px dashed red;
+}
+
+h1 {
+	background: aqua;
+}
+
+h2 {
+	background-color: aquamarine;
+}
+
+#purpose {
+	border: 2px solid black;
+	background-color: aliceblue;
+}
+
+article {
+	border: 2px solid green;
+	background-color: bisque;
+	margin: 10px;
+}
+
+section {
+	border: 2px dashed blue;
+	background-color: ivory;
+	margin: 15px;
+}
+
+header,
+footer {
+	border: 3px solid darkred;
+	background-color: darkseagreen;
+}
+
+h1,
+h2,
+#purpose {
+	margin: 10px;
+}
+
+section {
+	width: 40%;
+}

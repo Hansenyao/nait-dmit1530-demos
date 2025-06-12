@@ -1,0 +1,54 @@
+/*Style Sheet for Lecture 11-Activity 5*/
+
+body {
+	background-color: #fafafa;
+}
+ 
+.container {
+	margin: 0 auto;
+	width: 960px;
+	font-size: 100%;
+	line-height: 1.5;
+    background-image: url("../img/backgroundImage.jpeg");
+    background-repeat: no-repeat;
+	
+}
+
+h1{
+    text-align:center;
+}
+
+
+.box{
+    width:250px;
+    height:250px;
+    border: 2px dashed blue;
+    margin:30px;
+ }
+ 
+ .box1{
+     background-color: rgba(255, 95, 51, 1);
+ }
+ 
+ .box2{
+     background-color: rgba(255, 95, 51, 0.452);
+ }
+ 
+ .box3{
+     background-color: rgba(125, 95, 51, 1);
+ }
+ 
+ .box4{
+     background-color: rgba(125, 95, 51, 0.5);
+ }
+ 
+ 
+ .box5{
+     background-color: rgba(0, 0, 0, 1);
+ }
+ 
+ 
+ .box6{
+     background-color: rgba(0, 0, 0, 0.5);
+ }
+ 

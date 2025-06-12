@@ -1,0 +1,61 @@
+/*Styles sheet for Lecture 11- Activity4.*/
+
+
+/*h1 and h2 elements have a red dashed border of size 2px*/
+
+h1,
+h2 {
+    border: 2px dashed red;
+    margin: 10px;
+}
+
+
+/*h1 elements have background-color aqua*/
+h1 {
+    background-color: aqua;
+
+}
+
+/*h2 elements have background-color aquamarine*/
+h2 {
+    background-color: aquamarine;
+}
+
+/* The element with id purpose has a solid balack border of size 2px and a background color of cyan*/
+
+#purpose {
+    border: 2px solid black;
+    background-color: aliceblue;
+    margin: 10px;
+}
+
+
+/*Article elements have solid greenborder of size 2px and background color bisque*/
+article {
+    border: 2px solid green;
+    background-color: bisque;
+    margin: 20px;
+}
+
+/*section elements- dashed blue border, size 3px- background-color:darksalmon
+margin: 15px, width: 40%*/
+section {
+    border: 3px dashed blue;
+    background-color: ivory;
+    margin: 15px;
+    width: 40%;
+    display: inline-block;
+}
+
+/*header and footer elements each has a dar-red solid border of
+ size 3px and a background-color of dark-seagreen */
+header,
+footer {
+    border: 3px solid red;
+    background-color: darkseagreen;
+}
+
+h1,
+#purpose {
+    display: inline;
+}
