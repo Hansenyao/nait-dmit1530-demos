@@ -1,0 +1,53 @@
+img {
+    width: 300px;
+}
+
+/*We'll set the position property of the second section to relative.
+This will make it possible for us to position its children using relative 
+positionning*/
+
+section:nth-of-type(2){
+  position:relative;
+  border: 2px dashed red;
+  height: 40rem;
+  width:50%;
+  margin:0 auto;
+}
+
+/*The 2 elements being styled below are children of the second section
+They are being positioned with absolute offsets wrt theitr parent*/
+figure{
+  position: absolute;
+  top: 2rem;
+  left:3rem;
+}
+
+.text{
+  position:absolute;
+  bottom: 2rem;
+  left:1rem;
+  right: 1rem;
+}
+
+
+/*We want to use absolute positionning on the children of the footer
+so me make the position of the parent(the footer) relative*/
+footer{
+  position:relative;
+  width:50%;
+  margin:0 auto;
+  text-align:center;
+  margin-top:2rem;
+  border:3px dashed blue;
+  border-radius:50%;
+}
+
+footer li{
+  list-style-type: none;;
+}
+
+footer h2{
+  position:absolute;
+  top:-3rem;
+  left:-2rem;
+}

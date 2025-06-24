@@ -1,0 +1,11 @@
+img {
+    width: 300px;
+}
+
+figure{
+  float:left;
+}
+
+footer{
+    clear:left;
+}
