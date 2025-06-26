@@ -1,0 +1,29 @@
+img {
+    width: 300px;
+}
+
+figure {
+    visibility: hidden;
+    /*Making the element's position absolute removes it from the page filow*/
+    position: absolute;
+
+    /* We also want to ensure that on all browsers and all
+    devices it won't interfere with the layout, so we postion it according*/
+    top: -9999px;
+    left: -9999px;
+}
+
+section:nth-of-type(2) {
+    position: relative;
+}
+
+@media screen and (min-width: 720px) {
+    section:nth-of-type(2) {
+        position: unset;
+    }
+
+    figure {
+        position: unset;
+        visibility: visible;
+    }
+}
