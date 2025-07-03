@@ -1,0 +1,15 @@
+img {
+    width: 300px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
